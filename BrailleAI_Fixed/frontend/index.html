@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrailleAI Fixed</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>BrailleAI</h1>
+
+  <input type="file" id="fileInput" accept="image/*">
+  <button id="detectBtn">Detect Braille</button>
+
+  <div id="previewBox">
+    <img id="previewImage" />
+  </div>
+
+  <div id="loading">Detecting...</div>
+
+  <div id="resultBox">
+    <h3>Detected Text</h3>
+    <div id="resultText">No result yet</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

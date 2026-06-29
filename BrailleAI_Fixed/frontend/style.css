@@ -1,0 +1,45 @@
+body{
+  background:#111827;
+  color:white;
+  font-family:Arial;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.container{
+  width:500px;
+  background:#1f2937;
+  padding:30px;
+  border-radius:16px;
+}
+
+button{
+  margin-top:15px;
+  padding:12px 20px;
+  border:none;
+  background:#7c3aed;
+  color:white;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+#previewImage{
+  width:100%;
+  margin-top:20px;
+  border-radius:10px;
+}
+
+#loading{
+  display:none;
+  margin-top:15px;
+  color:#a78bfa;
+}
+
+#resultBox{
+  margin-top:20px;
+  background:#111827;
+  padding:15px;
+  border-radius:10px;
+}
